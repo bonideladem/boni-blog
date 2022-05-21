@@ -6,6 +6,7 @@ const Bloglist =({blogs, title, handleDelete})=>{
                 <h2>{blog.title}</h2>
                 <p>written by{blog.author}</p>
                 <button on onClick={()=>handleDelete(blog.id)}>Remove</button>
+                <button on onClick={()=>handleDelete(blog.id)}>Click Me </button>
             </div>
         ))}
     </div>
